@@ -1,0 +1,17 @@
+:root {
+  --white: white;
+  --bg-body--: darkslategrey;
+}
+* {
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: var(--white);
+  background-color: var(--bg-body--);
+}
